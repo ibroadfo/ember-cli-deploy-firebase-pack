@@ -1,21 +1,17 @@
 {
   "name": "ember-cli-deploy-firebase-pack",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "An ember-cli-deploy plugin pack implementing a simple firebase hosting deploy pattern.",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "ember try:testall"
-  },
-  "repository": "",
+  "scripts": {},
+  "repository": "https://github.com/ibroadfo/ember-cli-deploy-firebase-pack",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "ibroadfo",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -40,10 +36,15 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin-pack",
+    "firebase"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-deploy-build": "^0.1.1",
+    "ember-cli-deploy-firebase": "0.0.7",
+    "ember-cli-deploy-revision-data": "^0.2.3"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
