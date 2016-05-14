@@ -1,26 +1,24 @@
-# Ember-cli-deploy-firebase-pack
+# ember-cli-deploy-firebase-pack
 
-This README outlines the details of collaborating on this Ember addon.
+> An ember-cli-deploy plugin pack implementing a simple firebase hosting deploy pattern
+
+This package bundles the plugins you need to have a deployment pipeline for your Ember app that deploys to Firebase hosting.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-deploy
+ember install ember-cli-deploy-firebase-pack
+```
 
-## Running
+The necessary set of plugins will be available to ember-cli-deploy.
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+## What is a plugin pack?
 
-## Running Tests
+A "plugin pack" is a concept supported by ember-cli-deploy that allows a single addon to make multiple plugins available by adding a single direct dependency to your project.
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+## What plugins are made available?
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+* [ember-cli-deploy-build](https://github.com/ember-cli-deploy/ember-cli-deploy-build)
+* [ember-cli-deploy-firebase](https://github.com/ibroadfo/ember-cli-deploy-firebase)
+* [ember-cli-deploy-revision-data](https://github.com/ember-cli-deploy/ember-cli-deploy-revision-data)
