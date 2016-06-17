@@ -4,6 +4,11 @@
 
 This package bundles the plugins you need to have a deployment pipeline for your Ember app that deploys to Firebase hosting.
 
+## Compatibility
+
+If you need to continue using firebase 2.x, please use the 0.1.x branch.
+
+
 ## Installation
 
 ```
