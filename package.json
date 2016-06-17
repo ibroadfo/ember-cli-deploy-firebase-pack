@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-firebase-pack",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "An ember-cli-deploy plugin pack implementing a simple firebase hosting deploy pattern.",
   "directories": {
     "doc": "doc",
@@ -43,7 +43,7 @@
   "dependencies": {
     "ember-cli-babel": "^5.1.6",
     "ember-cli-deploy-build": "^0.1.1",
-    "ember-cli-deploy-firebase": "0.0.7",
+    "ember-cli-deploy-firebase": "~0.1.0",
     "ember-cli-deploy-revision-data": "^0.2.3"
   },
   "ember-addon": {
