@@ -12,9 +12,9 @@
   "repository": "https://github.com/ibroadfo/ember-cli-deploy-firebase-pack",
   "scripts": {},
   "dependencies": {
-    "ember-cli-deploy-build": "1.0.0",
-    "ember-cli-deploy-firebase": "0.2.8",
-    "ember-cli-deploy-revision-data": "1.0.0"
+    "ember-cli-deploy-build": "^1.0.0",
+    "ember-cli-deploy-firebase": "~0.2.0",
+    "ember-cli-deploy-revision-data": "^1.0.0"
   },
   "devDependencies": {
     "ember-cli": "2.12.1",
